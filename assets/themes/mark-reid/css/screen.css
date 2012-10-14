@@ -67,7 +67,7 @@ sup { line-height: 1ex; }
 #site {
 	max-width: 46em;
 	margin: 1.5em auto 3em auto;
-	line-height:1.5em;
+	line-height:1.8em;
 }
 
 #page, #disqus_thread {
@@ -452,7 +452,7 @@ p.delicious-extended:before { content: ' — '; }
 
 /* @group Footer */
 #footer {
-	margin-top: 0;
+	margin-top: 1.5em;
 	color: grey;
 	font-size: 87.5%;
 	line-height: 1.3em;
@@ -547,3 +547,12 @@ img.maruku-png { }
 	color:#FFF;
 }
 
+.r-background{
+	background-color:#DDDDDD;
+	padding:1em;
+	margin:2em 2em;
+	font-family: 'Courier New', Courier, monospace;
+	-moz-border-radius: 20px; /* FF1+ */
+	-webkit-border-radius:20px; /* Saf3+, Chrome */
+	border-radius: 20px;
+}
