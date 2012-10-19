@@ -26,12 +26,6 @@
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/screen.css" type="text/css" />
    
-   <!-- Google Code Prettify -->
-   {% if page.prettycode %}
-   <link href="/js/gcp/prettify.css" type="text/css" rel="stylesheet" />
-	<script type="text/javascript" src="/js/gcp/prettify.js"></script>
-   {% endif %}
-   
    <!-- Google Search --->
    <script>
 	  (function() {
@@ -43,11 +37,7 @@
 	  })();
 	</script>
 </head>
-<body id="{{ page.section }}"
-{% if page.prettycode %}
-	onload="prettyPrint()"
-{% endif %}
->
+<body id="{{ page.section }}">
 <div id="site">
   
   <div id="header">

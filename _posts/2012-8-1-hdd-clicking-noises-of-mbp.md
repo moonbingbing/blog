@@ -4,7 +4,6 @@ title: "MacBook Pro 硬盘异响原因及解决"
 description: "MacBook Pro在安静的时候会发出轻微金属撞击的声音，这篇文章简单讨论了引起该声音的原因及解决办法。"
 category: 计算机
 tags: [Apple, HDD, Hardware, Mac, OS X, Troubleshooting]
-prettycode: 1
 ---
 
 <p>最近在我的 MacBook Pro (15-inch, Mid 2012) 上，特别是安静的时候，硬盘会随机出现类似于&ldquo;啪嗒&rdquo;的声音。</p>
@@ -46,22 +45,15 @@ prettycode: 1
 
 <p><a href="http://mckinlay.net.nz/files/hdapm-installer.dmg">下载</a>后安装。</p>
 <p>打开命令行后输入（注意，disk0 是系统盘所在位置）：</p>
-<pre class="prettyprint lang-sh">sudo hdapm disk0 max</pre>
-{% highlight python %}
-import re
-for test_string in ['555-1212', 'ILL-EGAL']:
-    if re.match(r'^\d{3}-\d{4}$', test_string):
-        print test_string, 'is a valid US local phone number'
-    else:
-        print test_string, 'rejected'
-{% endhighlight %}
-{% highlight python %}
-$ sudo apt-get update
+{% highlight bash %}
+$ sudo hdapm disk0 max
 {% endhighlight %}
 <p>问题解决了，说明&ldquo;咔嗒&rdquo;声确实是磁头悬臂停靠所引起。</p>
 <p style="text-align:center;"><img src="/img/post/2012-8-1-hdd-clicking-noises-of-mbp/power-saver.png" /></p>
 <p>这时的电耗可能也会高一些，此外，如果想要还原的话输入以下命令即可：</p>
-<pre class="prettyprint lang-sh">sudo hdapm disk0 default</pre>
+{% highlight bash %}
+$ sudo hdapm disk0 default
+{% endhighlight %}
 <p>关于这个软件更多的细节可以参考<a href="http://mckinlay.net.nz/hdapm/usage.html">这里</a>。</p>
 <p><br /></p>
 
