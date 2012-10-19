@@ -550,13 +550,12 @@ img.maruku-png { }
 
 .r-background{
 	background-color:#DDDDDD;
-	padding:1.5em;
-	margin:2em 3em;
+	padding:1em;
+	margin:2em 2em;
 	font-family: 'Courier New', Courier, monospace;
 	-moz-border-radius: 20px; /* FF1+ */
 	-webkit-border-radius:20px; /* Saf3+, Chrome */
 	border-radius: 20px;
-	line-height:1.9em;
 }
 
 .cse input.gsc-input,input.gsc-input {
