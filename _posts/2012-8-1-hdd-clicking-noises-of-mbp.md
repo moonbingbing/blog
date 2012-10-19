@@ -55,6 +55,9 @@ for test_string in ['555-1212', 'ILL-EGAL']:
     else:
         print test_string, 'rejected'
 {% endhighlight %}
+{% highlight python %}
+$ sudo apt-get update
+{% endhighlight %}
 <p>问题解决了，说明&ldquo;咔嗒&rdquo;声确实是磁头悬臂停靠所引起。</p>
 <p style="text-align:center;"><img src="/img/post/2012-8-1-hdd-clicking-noises-of-mbp/power-saver.png" /></p>
 <p>这时的电耗可能也会高一些，此外，如果想要还原的话输入以下命令即可：</p>
