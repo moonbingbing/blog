@@ -345,7 +345,7 @@ pre {
 	background: #fffff0;
 	border: 1px solid #ddc;
 	padding: 0.5em 1em;
-	overflow: hidden;
+	overflow: auto;
 
 	/* Experimental CSS3 stuff */
 	box-shadow: 1px 1px 6px #ccc;
@@ -354,7 +354,7 @@ pre {
 }
 pre:hover {
 	border-right: none;
-	overflow: visible;
+	overflow: auto;
 }
 code {
 	font-size: 1em;

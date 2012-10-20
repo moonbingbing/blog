@@ -16,7 +16,7 @@ author :
   email : igor@igorw.org
   github : waigx
   twitter : waigx
-  feedburner : feedname
+  feedburner : igorsblog
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -123,3 +123,11 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+  #Maruku
+  markdown: maruku
+  maruku:
+    use_tex: true
+    use_divs: false
+    png_engine: blahtex
+    png_dir: img/latex/
+    png_url: /img/latex/
