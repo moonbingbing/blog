@@ -575,8 +575,62 @@ td.gsc-clear-button  {
 	width:5em;
 	}
 
-.description,.description::first-letter{
-	font-size:0.5em;
+#description{
+	font-size: smaller;
 	color:#999;
-	clear:both;
 	}
+
+#LatestArticleDIV{
+	padding-top: 2em;
+	padding-bottom: 3em;
+	width: 85%;
+	}
+
+.LatestArticleHR{
+	margin-top: 0em;
+	margin-bottom: 0em;
+	text-align: left;
+	}
+
+#LowerPart{
+	width: 100%;
+	min-height: 20em;
+	}
+
+#RecentArticlesDIV{
+	float: left;
+	position: relative;
+	width: 58%;
+	}
+
+#RecentArticlesBorder{
+	width: 60%;
+	border-width: 1px;
+	border-color: #CCC;
+	border-style: solid none none none;
+	}
+
+#BlogInfo {
+	float: right;
+	position: relative;
+	width: 40%;
+}
+
+#BlogInfoBorderH{
+	border-width: 1px;
+	border-color: #CCC;
+	border-style: solid none none none;
+	width: 70%;
+}
+
+#BlogInfoBorderV{
+	border-width: 1px;
+	border-color: #CCC;
+	border-style: none none none solid;
+	height: 15em;
+}
+
+#BlogInfoContents {
+	font-size: small;
+	padding: 0.5em 0em 0em 1em;
+}
