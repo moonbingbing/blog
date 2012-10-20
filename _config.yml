@@ -123,11 +123,3 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
-  #Maruku
-  markdown: maruku
-  maruku:
-    use_tex: true
-    use_divs: false
-    png_engine: blahtex
-    png_dir: img/latex/
-    png_url: /img/latex/
