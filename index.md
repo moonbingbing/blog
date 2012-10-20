@@ -45,7 +45,7 @@ tagline: Supporting tagline
 				<div id="BlogInfoContents">
 					<p style="text-align:left;">
 						--&nbsp;This Blog&nbsp;--<br />
-						RSS Feed:&nbsp;<a href="/atom.xml">Atom</a>,&nbsp;<a href="http://feeds.feedburner.com/igorwsblog">feedburner< /a><br />
+						RSS Feed:&nbsp;<a href="/atom.xml">Atom</a>,&nbsp;<a href="http://feeds.feedburner.com/igorwsblog">feedburner</a><br />
 						Article Count:&nbsp;{{ site.posts | size }}<br />
 						Source Code On <a href="https://github.com/waigx/blog">GitHub</a>.<br />
 					</p>
