@@ -5,6 +5,8 @@ description: "关于UTF-8及相关编码格式简介的翻译。"
 category: 计算机
 tags: [UTF-8, Translation]
 ---
+{% include JB/setup %}
+
 <ul>
 	<li>本文翻译自卢昌海的个人主页：<a href="http://www.changhai.org" target="_blank">http://www.changhai.org</a></li>
 	<li>原文链接：<a href="http://www.changhai.org/articles/technology/misc/utf-8.php" target="_blank">http://www.changhai.org/articles/technology/misc/utf-8.php</a></li>
@@ -64,5 +66,3 @@ U-04000000 - U-7FFFFFFF:	1111110x 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx
 <p>最后说一下在网页上输入 UTF-8 码字符的通用方法。例如，想要在网页中输入 U+2014（破折号&ldquo;&mdash;&rdquo;），可以使用&ldquo;&amp;#x2014;&rdquo;（&ldquo;x&rdquo;表示接下来输入的数字是十六进制）或者&ldquo;&amp;#8212;&rdquo;（8212是x2014的十进制）。任何 Unicode 字符都可以用这种格式输入（不怎么方便，但是在没有输入法的时候还是很有用的）。</p>
 
 <p style="text-align:right;"><strong>全文完</strong></p>
-
-{% include JB/setup %}

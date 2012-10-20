@@ -1,1 +1,25 @@
-Sorry this page does not exist =(
+---
+layout: page
+title: Page was not found.
+---
+{% include JB/setup %}
+
+<div style= "height:450px; background-image:url(/img/404.png) ;background-repeat:no-repeat;">
+	<div>
+        <h1>D'oh!!!</h1>
+        <h2>Page was not found.</h2>
+    </div>
+    <ul id="contact">
+    	<li><a href="javascript:history.back()">Back</a></li>
+        <li><a href="/">Blog</a></li>
+        <li><a href="mailto:igor@igorw.org">Mail Me</a></li>
+	</ul>
+</div>
+    
+    <p style=" width:80% ;text-align:center; margin:0 auto">
+    	Finding contents of Igor's blog? Try this link: 
+		<script type="text/javascript">
+            document.write('<a href="http://blog.igorw.org'+window.location.pathname + '">'+'http://blog.igorw.org'+window.location.pathname+'</a>');
+        </script>
+        , or, you can email me as well: <a href="mailto:igor@igorw.org">igor@igorw.org</a>
+	</p>

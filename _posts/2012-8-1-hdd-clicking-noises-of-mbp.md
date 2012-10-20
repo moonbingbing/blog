@@ -5,6 +5,7 @@ description: "MacBook Pro在安静的时候会发出轻微金属撞击的声音�
 category: 计算机
 tags: [Apple, HDD, Hardware, Mac, OS X, Troubleshooting]
 ---
+{% include JB/setup %}
 
 <p>最近在我的 MacBook Pro (15-inch, Mid 2012) 上，特别是安静的时候，硬盘会随机出现类似于&ldquo;啪嗒&rdquo;的声音。</p>
 <p>Google了一下&ldquo;<a href="https://www.google.com/search?hl=en&amp;newwindow=1&amp;q=Mac+HDD+random+clicking+noise">Mac HDD random clicking noise</a>&rdquo;，发现很多人都被类似的问题困扰，而且症状千奇百怪。OS X下磁碟式硬盘出现这类异响一般有三个原因：</p>
@@ -61,5 +62,3 @@ $ sudo hdapm disk0 default
 <p style="text-align:left;">[1]&nbsp;Click of death - Wikipedia, the free encyclopedia:<br /><a href="http://en.wikipedia.org/wiki/Click_of_death">http://en.wikipedia.org/wiki/Click_of_death</a>;</p>
 <p style="text-align:left;">[2]&nbsp;Hard Disk Drive Advanced Power Management (APM):<br /><a href="http://www.smarthdd.com/en/apm.htm">http://www.smarthdd.com/en/apm.htm</a>;</p>
 <p style="text-align:right;"><strong>全文完</strong>&nbsp;</p>
-
-{% include JB/setup %}

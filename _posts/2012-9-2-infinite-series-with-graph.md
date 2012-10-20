@@ -6,6 +6,8 @@ category: 数学
 tags: [Infinite Series, Mathematic, Number-Shape Combination]
 isMath: 1
 ---
+{% include JB/setup %}
+
 <p>感谢高中时的施家浜老师，是他让我知道这种有趣数形结合的方法。</p>
 <p>这篇文章介绍一个无穷级数的图形表示，该无穷级数如下所示：</p>
 
@@ -24,4 +26,3 @@ isMath: 1
 <p>有兴趣的同学可以继续阅读。</p>
 <p style="text-align:right;"><strong>全文完</strong></p>
 
-{% include JB/setup %}

@@ -613,14 +613,14 @@ td.gsc-clear-button  {
 #BlogInfo {
 	float: right;
 	position: relative;
-	width: 40%;
+	width: 35%;
 }
 
 #BlogInfoBorderH{
 	border-width: 1px;
 	border-color: #CCC;
 	border-style: solid none none none;
-	width: 70%;
+	width: 75%;
 }
 
 #BlogInfoBorderV{

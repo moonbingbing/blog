@@ -5,6 +5,7 @@ description: "描述ie4linux在较新版本wine下安装时出现的一些错误
 category: 计算机
 tags: [IE, Linux, Troubleshooting, Wine]
 ---
+{% include JB/setup %}
 
 <p>因为各种各样的原因，额，始终还是需要 IE6 的。<br /> winetricks<sup><small>[1]</small></sup> 里已经提供了 ie6 ( Internet Explorer 6 ) 的安装选项，安装过程也算是顺利，但稳定性和 ActiveX 的兼容性与 ies4linux<sup><small>[2]</small></sup> wine 出的效果仍有差距。<br />在新版本的 wine 环境中，运行 ies4linux 后终端里出现警告信息：</p>
 <blockquote>IEs4Linux 2 is developed to be used with recent Wine versions (0.9.x). It seems that you are using an old version. It's recommended that you update your wine to the latest version (Go to: winehq.com). </blockquote>
@@ -52,5 +53,3 @@ ies4linux-2.99.0$ ./ies4linux --install-corefonts --no-flash --no-desktop-icon -
 <p style="text-align:left;">[1]&nbsp;winetricks - The Official Wine Wiki:&nbsp;&nbsp;<a href="http://wiki.winehq.org/winetricks">http://wiki.winehq.org/winetricks</a>;</p>
 <p style="text-align:left;">[2]&nbsp;Main Page - IEs4Linux:&nbsp;&nbsp;<a href="http://www.tatanka.com.br/">http://www.tatanka.com.br/</a>;</p>
 <p style="text-align:right;"><strong>全文完</strong></p>
-
-{% include JB/setup %}

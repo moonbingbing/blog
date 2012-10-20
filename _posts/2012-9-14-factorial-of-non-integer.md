@@ -6,6 +6,8 @@ category: 数学
 tags: [Mathematic, Mathematical Analysis]
 isMath: 1
 ---
+{% include JB/setup %}
+
 <p>把 iPhone/iPod touch 横过来，或者使用 Android 内置计算器的高级功能可以进行阶乘计算。但有趣的是，当输入一个非整数的时候仍然会返回阶乘结果。</p>
 <p style="text-align:center;"><img src="/img/post/2012-9-14-factorial-of-non-integer/stock-calculator-of-android.jpg" /></p>
 
@@ -25,4 +27,3 @@ isMath: 1
 	<li>Wikipedia - Gamma function:<br /><a href="http://en.wikipedia.org/wiki/Gamma_function" target="_blank">http://en.wikipedia.org/wiki/Gamma_function</a></li>
 </ul>
 <p style="text-align:right;"><strong>全文完</strong></p>
-{% include JB/setup %}

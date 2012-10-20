@@ -3,6 +3,8 @@ layout: page
 title: Welcome to Igor's blog
 tagline: Supporting tagline
 ---
+{% include JB/setup %}
+
 <div>
 	<div id="LatestArticleDIV">
 		<h1><a href="{{BASE_PATH}}{{ site.posts[0].url }}">{{ site.posts[0].title }}</a></h1>
@@ -12,7 +14,7 @@ tagline: Supporting tagline
 		</div>
 		<p style="font-size: smaller; text-align:right; margin-bottom: 0em;"><a href="{{BASE_PATH}}{{ site.posts[0].url }}">阅读全文...</a></p>
 		<hr class="LatestArticleHR"/>
-		<div style="margin:0em 3em; font-size: x-small;">
+		<div style="margin:0em 2.5em; font-size: x-small;">
 			<p>
 				Categories&nbsp;:&nbsp;<a href="{{BASE_PATH}}categories.html#{{site.posts[0].categories}}-ref">{{ site.posts[0].categories }}</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;		
 				Author&nbsp;:&nbsp;<a class="author" href="http://igorw.org">{{ site.author.name }}</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -30,6 +32,10 @@ tagline: Supporting tagline
 			    	<li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
 			  		{% endfor %}
 				</ul>
+				<p style="font-size: smaller; text-align:left; margin-bottom: 0em;">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="/archive.html">过往作品...</a>
+				</p>
 			</div>
 		</div>
 		<div id="BlogInfo">
@@ -46,13 +52,12 @@ tagline: Supporting tagline
 					<p>
 						--&nbsp;About Me&nbsp;--<br />
 						Living In:&nbsp;Jilin, China<br />
-						Home Page:&nbsp;<a href="http://igorw.org">http://igorw.org</a><br />
-						Email:&nbsp;<a href="mailto:igor@igorw.org">igor@igorw.org</a>
+						Email:&nbsp;<a href="mailto:igor@igorw.org">igor@igorw.org</a><br />
+						Home Page:&nbsp;<a href="http://igorw.org">http://igorw.org</a>
 					</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-{% include JB/setup %}
 
