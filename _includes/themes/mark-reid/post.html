@@ -3,8 +3,10 @@
 </div>
 <div id="page">
 	
-  <h1 class="emphnext">{{ page.title }}</h1>
-  <div id="description">&nbsp;&nbsp;&nbsp;&nbsp;{{ page.description }}</div>
+  <h1 class="emphnext">{{ page.title }}
+  	<sup class="titlesup">[[<a href="/categories.html#{{page.category}}-ref">{{page.category}}</a>]]</sup>
+  </h1>
+  <div id="description">简介：{{ page.description}}</div>
   <ul class="tag_box inline">
   {% assign tags_list = page.tags %}
   {% include JB/tags_list %}
