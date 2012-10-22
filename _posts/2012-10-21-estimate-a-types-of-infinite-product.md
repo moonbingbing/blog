@@ -77,7 +77,7 @@ isMath: 1
 		$$\prod_{i=2}^{\infty}\big(1-\frac{1}{i!}\big)&gt;\frac{7}{4}-\frac{e}{2},\quad\prod_{i=2}^{\infty}\big(1+\frac{1}{i!}\big)&lt\frac{3}{7-2e}\qquad\bigg(\sum_{i=2}^{\infty}{\frac{1}{i!}}=e-2\bigg)$$
 	</li>
 	<li>
-		$$\prod_{i=2}^{\infty}\big(1-\frac{1}{i^{2}}\big)&gt;\frac{27}{16}-\frac{\pi^{2}}{8},\quad\prod_{i=2}^{\infty}\big(1+\frac{1}{i^{2}}\big)&lt\frac{15}{27-2\pi^{2}}\qquad\bigg(\sum_{i=2}^{\infty}{\frac{1}{i^{2}}}=\frac{\pi^{2}}{6}-2\bigg)$$
+		$$\prod_{i=2}^{\infty}\big(1-\frac{1}{i^{2}}\big)&gt;\frac{27}{16}-\frac{\pi^{2}}{8},\quad\prod_{i=2}^{\infty}\big(1+\frac{1}{i^{2}}\big)&lt\frac{15}{27-2\pi^{2}}\qquad\bigg(\sum_{i=2}^{\infty}{\frac{1}{i^{2}}}=\frac{\pi^{2}}{6}-1\bigg)$$
 	</li>
 	<li>
 		$$\prod_{i=2}^{\infty}(1-C_{n}^{i}\cdot\frac{1}{i!})&gt;\frac{7}{4}-\frac{e}{2},\quad\prod_{i=2}^{\infty}(1+C_{n}^{i}\cdot\frac{1}{i!})&lt\frac{3}{7-2e}\\\Bigg(\lim_{n \to \infty}\bigg(\big(\frac{1}{n}+1\big)^{n}-2\bigg)=\lim_{n \to \infty}\bigg(\sum_{i=2}^{n}C_{n}^{i}\cdot\frac{1}{n^{i}}\bigg)=e-2\Bigg)$$
