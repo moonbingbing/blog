@@ -70,7 +70,8 @@ tags: [Site Migration, Jekyll, Jekyll-Bootstrap, GitHub, Tumblr, MathJax, Pygmen
 </p>
 <p>
 	接下来在网上找到了<a href="http://jekyllbootstrap.com">Jekyll-Bootstrap</a>框架来使用，挑了里面的这个模板自己改了改，也顺便学习了HTML（哦，原谅我是个HTML痴吧）。把原来的博客连接都做了跳转处理，但因为GitHub无法配置301跳转，于是手工写了几个跳转页面。<br />
-	有兴趣的同学可以在<a href="https://github.com/waigx/blog">https://github.com/waigx/blog</a>上看到博客的源代码，如果觉得不错的话欢迎fork。
+	此外还把博客的地址迁移到<a href="http://blog.igorw.org">blog.igorw.org</a>，而把<a href="http://igorw.org">igorw.org</a>改为了个人主页，主要放一些项目、个人简介等内容。</br>
+	有兴趣的同学可以在<a href="https://github.com/waigx/blog">GitHub</a>上看到博客的源代码，如果觉得不错的话欢迎Fork。
 </p>
 <p>
 	现在不爽的几件事：
