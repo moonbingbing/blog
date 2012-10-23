@@ -66,10 +66,10 @@ tags: [Site Migration, Jekyll, Jekyll-Bootstrap, GitHub, Tumblr, MathJax, Pygmen
 </p>
 <p style="text-align:center;"><img style="border:solid; border-width:1px;" src="/img/post/2012-10-23-a-note-of-blog-migration/mess-tumblr-url-with-post-id.png" /><br /><span style="font-size:small;">Tumblr上混乱的URL</span></p>
 <p>
-	这样看起来，GitHub上建站的自由度是免费方案中除Google App Engine外最高的，而<a href="https://github.com/mojombo/jekyll">Jekyll</a>又自带有强大的<a href="http://pygments.org">Pygments</a>作为语法高亮方案，而默认的Markdown解析引擎Maruku又支持Latex生成png，所有的一切似乎都水到渠成。
+	这样看起来，GitHub上建站的自由度是免费方案中除Google App Engine外最高的，而<a href="https://github.com/mojombo/jekyll">Jekyll</a>又自带有强大的<a href="http://pygments.org">Pygments</a>作为语法高亮方案，默认的Markdown解析引擎Maruku又支持Latex生成png，所有的一切似乎都水到渠成。
 </p>
 <p>
-	接下来在网上找到了<a href="http://jekyllbootstrap.com">Jekyll-Bootstrap</a>框架来使用，挑了里面的这个模板自己改了改，也顺便学习了HTML（哦，原谅我是个HTML痴吧）。把原来的博客连接都做了跳转处理，但因为GitHub无法配置301跳转，于是手工写了几个跳转页面。<br />
+	接下来在网上找到了<a href="http://jekyllbootstrap.com">Jekyll-Bootstrap</a>框架，挑了里面的这个模板自己改了改，也顺便学习了HTML（哦，原谅我是个HTML痴吧）。把原来的博客链接都做了跳转处理，但因为GitHub无法配置301跳转，于是手工写了几个跳转页面。<br />
 	此外还把博客的地址迁移到<a href="http://blog.igorw.org">blog.igorw.org</a>，而把<a href="http://igorw.org">igorw.org</a>改为了个人主页，主要放一些项目、个人简介等内容。</br>
 	有兴趣的同学可以在<a href="https://github.com/waigx/blog">GitHub</a>上看到博客的源代码，如果觉得不错的话欢迎Fork。
 </p>
